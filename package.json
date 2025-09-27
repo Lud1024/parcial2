@@ -1,0 +1,21 @@
+{
+  "name": "bonos-nomina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "@types/jest": "^27.4.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
